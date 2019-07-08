@@ -5,3 +5,18 @@ $color_white: white;
 $important: !important;
 $font: 'Nutito';
 $native_colorBlue: #47dafa;
+.border{
+    background: #3498db;
+    max-width: $all_width;
+    height: $forty + 20px;
+    color: $color_white;
+    font-size: $forty - 15px;
+    & .row{
+        padding-top: 1%;
+        & i{
+            color: $color_white;
+           font-size: $forty - 10px;
+        }
+    }
+   
+  }

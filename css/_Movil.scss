@@ -1,0 +1,19 @@
+.movil{
+    & .container{
+        & .row{
+            align-items: center;
+           
+            & img{
+                max-width: $all_width;
+            }
+            & .title{
+                & h3{
+                    & p{
+                        color: $native_colorBlue;
+                    }
+                }
+            }
+        }
+        
+    }
+}
