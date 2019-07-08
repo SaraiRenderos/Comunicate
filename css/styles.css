@@ -110,11 +110,71 @@ body {
 .icon-twitter:before {
   content: "\ea96"; }
 
-.movil .container .row {
+.movil .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  .movil .container .row img {
+  .movil .row img {
     max-width: 100%; }
-  .movil .container .row .title h3 p {
+  .movil .row .title h3 p {
     color: #47dafa; }
+
+.movil .planes {
+  text-align: center;
+  display: block; }
+  .movil .planes h2 {
+    margin: 2%;
+    font-family: 'Baloo Chettan';
+    color: #424949; }
+  .movil .planes .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .movil .planes .row .package {
+      border: 1px solid #424949;
+      border-radius: 10px;
+      padding: 0;
+      padding-bottom: 2%; }
+      .movil .planes .row .package .title {
+        color: white;
+        background: rgba(52, 152, 219, 0.8);
+        border-radius: 10px 10px 0 0;
+        margin: 0;
+        font-weight: bold;
+        padding: 2%; }
+      .movil .planes .row .package .monthly {
+        background: rgba(52, 152, 219, 0.5);
+        margin: 0; }
+      .movil .planes .row .package .navegation {
+        background: rgba(52, 152, 219, 0.2); }
+      .movil .planes .row .package .netflix {
+        font-size: 40px;
+        color: #424949;
+        font-weight: bold; }
+      .movil .planes .row .package button {
+        text-align: center;
+        background: #3498db;
+        color: white;
+        padding: 2%;
+        border-radius: 5px;
+        font-size: 25px;
+        width: 140px; }
+
+.tv {
+  margin-bottom: 2%;
+  margin-top: 2%; }
+  .tv img {
+    max-width: 100%; }
+  .tv .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .tv .row h3 {
+      color: #424949;
+      font-size: 30px;
+      font-weight: bold; }
+      .tv .row h3 p {
+        color: #47dafa; }

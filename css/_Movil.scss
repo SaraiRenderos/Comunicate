@@ -1,7 +1,7 @@
 .movil{
-    & .container{
+ 
         & .row{
-            align-items: center;
+            align-items: $center;
            
             & img{
                 max-width: $all_width;
@@ -14,6 +14,58 @@
                 }
             }
         }
-        
-    }
+        & .planes{
+            text-align: $center;
+            display: block;
+            & h2 {
+                margin: $two_percent;
+                font-family: 'Baloo Chettan';
+                color: $gray;
+
+            }
+            & .row{
+                display: flex;
+                justify-content: space-between;
+                & .package{
+
+                    border: 1px solid $gray;
+                    border-radius: $forty - 30px;
+                    padding: $zero;
+                    padding-bottom: $two_percent;
+                   
+                        
+                        & .title{
+                            color: $color_white;
+                            background: rgba(52, 152, 219,0.8);
+                            border-radius: 10px 10px 0 0;
+                            margin: $zero;
+                            font-weight: $bold; 
+                            padding: $two_percent;  
+                        }
+                        & .monthly {
+                            background: rgba(52, 152, 219,0.5);
+                            margin: $zero;
+                        }
+                        & .navegation{
+                            background: rgba(52, 152, 219,0.2);
+                        }
+                        &  .netflix {
+                            font-size: $forty;
+                            color: $gray;
+                            font-weight: $bold; 
+                        } 
+                         & button {
+                             text-align: $center;
+                             background: $blue;
+                             color: $color_white;
+                             padding: $two_percent;
+                             border-radius: $forty - 35px;
+                             font-size: $forty - 15px;
+                             width: $forty + 100px; 
+                            
+                         }
+                } 
+            }
+            
+        }
 }

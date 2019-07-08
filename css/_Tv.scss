@@ -1,0 +1,21 @@
+.tv{
+    margin-bottom: $two_percent;
+    margin-top: $two_percent;
+    &  img {
+        max-width: $all_width;
+
+    }
+        & .row {
+            align-items: $center;         
+                & h3{
+                    color: $gray;
+                    font-size: $forty - 10px;
+                    font-weight: $bold;
+                    & p {
+                        color: $native_colorBlue;
+
+                    }
+                
+            }
+        }
+}

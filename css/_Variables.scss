@@ -4,9 +4,15 @@ $all_width: 100%;
 $color_white: white;
 $important: !important;
 $font: 'Nutito';
+$gray : #424949;
+$blue : #3498db;
 $native_colorBlue: #47dafa;
+$zero: 0;
+$center: center;
+$bold: bold;
+$two_percent: 2%;
 .border{
-    background: #3498db;
+    background: $blue;
     max-width: $all_width;
     height: $forty + 20px;
     color: $color_white;
