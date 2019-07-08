@@ -217,3 +217,9 @@ body {
     width: 100px;
     height: 10vh;
     margin: 2%; }
+
+@media screen and (max-width: 680px) {
+  .internet h3 {
+    font-size: 30px; }
+  h4 {
+    font-size: 20px; } }

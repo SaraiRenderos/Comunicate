@@ -1,0 +1,11 @@
+@media screen and (max-width: 680px) {
+   .internet{
+    & h3 {
+        font-size: $forty - 10px;
+
+    }
+   } 
+    h4 {
+        font-size: $forty - 20px;
+    }
+  }
