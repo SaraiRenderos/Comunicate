@@ -1,0 +1,24 @@
+.footer{
+    background: black;
+    color: $color_white;
+    margin: $zero;
+    padding: $zero;
+    max-width: $all_width;
+
+    & .row {
+        display: flex;
+        max-width: $all_width;
+        & .col {
+            display: flex;
+            justify-content: $center;
+            align-items: $center;
+            padding: 0;
+        }
+    }
+    & img{
+        width: $forty + 60px;
+        height: 10vh;
+        margin: $two_percent;
+    }
+
+}

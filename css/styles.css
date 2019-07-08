@@ -178,3 +178,42 @@ body {
       font-weight: bold; }
       .tv .row h3 p {
         color: #47dafa; }
+
+.internet {
+  background-image: url(../img/work_second.jpg);
+  max-width: 100%;
+  height: 75vh;
+  color: white;
+  text-align: center; }
+  .internet h3 {
+    padding: 10% 10%  10% 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: white; }
+
+.footer {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+  .footer .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%; }
+    .footer .row .col {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0; }
+  .footer img {
+    width: 100px;
+    height: 10vh;
+    margin: 2%; }

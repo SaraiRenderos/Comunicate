@@ -1,0 +1,13 @@
+.internet {
+    background-image:  url(../img/work_second.jpg);
+    max-width: $all_width;
+    height: 75vh;
+    color: $color_white;
+    text-align: center;
+    & h3 {
+        padding: 10% 10%  10% 0;
+        font-weight: $bold;
+        font-size: $forty + 10px;
+        color: $color_white;
+    }
+}
