@@ -34,8 +34,16 @@ body {
 
 .navbar-brand img {
   max-width: 100%;
-  max-height: 15vh; }
+  max-height: 10vh; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: white !important;
-  font-family: 'Arsenal' , sans-serif; }
+.navbar-light {
+  text-align: center; }
+  .navbar-light .navbar-toggler:hover {
+    border-color: #47dafa; }
+  .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-family: "Nutito", sans-serif;
+    font-weight: bold; }
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #47dafa !important;
+      border-top: 2px solid #47dafa; }

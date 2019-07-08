@@ -6,14 +6,23 @@
   
     & img{
         max-width: $all_width;
-        max-height: 15vh;
+        max-height: 10vh;
     }
 }
 .navbar-light{
+    text-align: center;
+    & .navbar-toggler:hover{
+        border-color:  $native_colorBlue;
+    }
     & .navbar-nav{
        & .nav-link{
             color: $color_white $important;
-            font-family: 'Arsenal' , sans-serif;
+            font-family: $font , sans-serif;
+            font-weight: bold;
+            &:hover {
+                color: $native_colorBlue $important; 
+                border-top: 2px solid  $native_colorBlue ;
+            }
         }
     } 
 }
